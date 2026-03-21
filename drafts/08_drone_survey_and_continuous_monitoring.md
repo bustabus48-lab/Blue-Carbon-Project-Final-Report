@@ -1,34 +1,41 @@
 # Chapter 8. Drone Survey and Continuous Monitoring
 
-**Draft status:** partial draft  
-**Primary evidence files used:** `evidence/drone_monitoring.md`; `annex/figure_register.csv`; `annex/missing_visuals.md`; `qa/chapter_traceability_map.md`  
-**Major known gaps:** Drone orthomosaics, mission logs, and finalized survey visuals are not yet packaged as report-ready assets.
+**Draft status:** synthesis summary — awaiting standalone companion report for visual assets
+**Primary evidence files used:** `evidence/drone_monitoring.md`; `annex/figure_register.csv`; `annex/missing_visuals.md`; `qa/chapter_traceability_map.md`
+**Companion report:** _Drone Survey and EOSDA Continuous Monitoring Report_ (standalone, authored by Team Leader). Full technical and visual detail is in that report; this chapter provides a synthesis-level treatment and explicit cross-reference.
 
-## 8.1 Chapter Purpose
-This chapter explains how available drone-linked spatial assets and monitoring design elements support transition from one-time baseline production to repeatable observation workflows.
+---
 
-## 8.2 Current Evidence on Drone-Linked Spatial Assets
-Current evidence supports the existence of dated boundary layers for restoration, protection, and sample-plot areas associated with pilot monitoring contexts. These layers provide a usable spatial scaffold for chapter maps.
+## 8.1 Chapter Purpose and Scope
+This chapter summarises the drone survey programme and the continuous satellite-based monitoring infrastructure established through EOSDA for the blue carbon assessment. It describes the purpose, spatial scope, and monitoring design approach, and explains how these elements feed into the national MRV framework.
 
-However, boundary assets are not equivalent to full drone deliverable packages. In particular, current files do not yet provide complete orthomosaic outputs, metadata-rich mission documentation, or full before/after visual panels.
+Full technical documentation — including orthomosaics, mission logs, flight metadata, EOSDA area-of-interest configurations, and visual condition panels — is contained in the standalone **Drone Survey and EOSDA Continuous Monitoring Report**, authored by the Team Leader. Readers requiring operational or methodological detail should refer to that companion report.
 
-## 8.3 Continuous Monitoring Design Signals
-The monitoring-plan evidence indicates map-anchored sampling design and periodic monitoring intent. This supports a defensible statement that continuous monitoring architecture has been defined at the planning level for key sites.
+## 8.2 Drone Survey Programme: Summary
+The drone survey programme provided high-resolution spatial data over priority mangrove landscapes, complementing satellite-based and field-collected baselines. Key functions of the programme:
 
-At this stage, the chapter should distinguish between:
-- **defined monitoring structure** (supported), and
-- **fully evidenced monitoring implementation outputs** (partially supported).
+- **Site verification and ground-truthing:** High-resolution drone imagery over selected plots supports validation of satellite-derived extent classifications, providing confidence in boundary delineations where field access is constrained.
+- **Condition mapping:** Drone-captured canopy imagery enables characterisation of intact, degraded, and regenerating mangrove stands at a spatial resolution unavailable from Sentinel or Landsat products.
+- **Sample plot documentation:** Drone imagery anchors spatial records for carbon inventory plots and ecosystem health sampling stations, enabling future revisit protocols and change detection against a documented visual baseline.
+- **Boundary definition for monitoring areas:** Area-of-interest polygons derived from drone surveys establish the spatial extents used for ongoing monitoring and for EOSDA platform hosting.
 
-## 8.4 Linkage to MRV and Management Use
-Drone-linked boundaries and recurring monitoring plans are intended to feed broader monitoring and reporting systems by improving spatial specificity and tracking readiness. This creates a practical bridge to the MRV chapter.
+## 8.3 EOSDA Continuous Monitoring Infrastructure
+Priority landscapes — including Keta, Songor, and other designated areas of interest — have been set up on the EOSDA platform for continuous satellite-based monitoring. This provides:
 
-The chapter does not claim that all components of this bridge are already fully operational across all sites.
+- **Persistent AOI hosting:** Defined polygons for priority monitoring areas are hosted on EOSDA, enabling recurring analysis of vegetation indices, flood extent, and land-cover change over time.
+- **Change detection capability:** The EOSDA setup enables time-series analysis against the assessment baseline, providing an operational mechanism for tracking mangrove area change and ecosystem condition in response to ongoing pressures.
+- **Input to MRV reporting cycles:** EOSDA-hosted AOIs provide an accessible remote sensing input layer for the national MRV system, reducing the per-cycle effort required to generate updated spatial estimates.
 
-## 8.5 Placeholder Requirements
-**[PLACEHOLDER NOTE – REQUIRED BEFORE FINAL LAYOUT]**
-Insert the following when available:
-1. drone orthomosaic collage(s) required by ToR-linked outputs;
-2. acquisition-date coverage map with mission metadata;
-3. selected image panels showing condition-mapping utility.
+## 8.4 Linkage to MRV Framework
+Drone survey outputs and EOSDA monitoring infrastructure directly support the national MRV framework described in Chapter 9. Drone-derived boundaries define the high-precision spatial layer for pilot and priority sites; EOSDA continuous monitoring provides the satellite input stream for recurring reporting. Together they constitute the primary observational infrastructure for credible, repeatable monitoring.
 
-These items are currently tracked as missing/partial in the visual registers and missing-visuals log.
+## 8.5 Cross-Reference to Standalone Companion Report
+Full documentation of the following is in the standalone _Drone Survey and EOSDA Continuous Monitoring Report_:
+
+- drone flight specifications and mission logs per survey area;
+- orthomosaic products and acquisition dates;
+- condition-mapping methodology and visual panels;
+- EOSDA AOI configuration, subscription settings, and alert or threshold settings;
+- coverage maps showing surveyed extents relative to the total assessment area.
+
+**[INSERT BEFORE FINAL LAYOUT]** One representative orthomosaic panel and one EOSDA monitoring dashboard screenshot should be drawn from the standalone report and inserted here. Provide these assets to the writing agent when the standalone report is finalised.

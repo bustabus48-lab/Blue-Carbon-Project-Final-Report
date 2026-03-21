@@ -3,14 +3,16 @@
 This repository is a controlled writing environment for producing the **Final Report** for the Blue Carbon Assessment Consultancy.
 
 ## Purpose
-The final report will synthesize:
-- Mangrove Geospatial Extent Report
-- Socio-Economic Report
-- Ecosystem Health Report
-- Carbon Inventory Report
-- Drone Survey plots and outputs
-- EOSDA hosting and monitoring setup
-- MRV system documentation
+This repo produces the **Blue Carbon Final Report**, which is one of four coordinated deliverables for the assignment. The full deliverable set is:
+
+| # | Report | Author | Status |
+|---|---|---|---|
+| 1 | **Blue Carbon Final Report** (this repo) | Ecological Nest / Team Leader | In progress |
+| 2 | **MRV System Report** (standalone) | Team Leader | To be authored separately |
+| 3 | **Drone Survey and EOSDA Continuous Monitoring Report** (standalone) | Team Leader | To be authored separately |
+| 4 | **Carbon Inventory Report** (standalone) | Carbon Team | Pending delivery |
+
+The Final Report synthesizes and cross-references the three companion reports. It does not replicate their content at the same level of detail. Chapters 8 and 9 of the Final Report provide summary treatments and direct cross-references to the standalone Drone/EOSDA and MRV reports respectively.
 
 ## Recommended workflow
 1. Place all source reports in `source_reports/`
@@ -32,18 +34,26 @@ The final report will synthesize:
 - `qa/` consistency and editorial checks
 - `notes/` working notes, issue logs, decision logs
 
-## Files to upload first
+## Files to upload / provide
+**For the Final Report (this repo):**
 - Contract agreement
 - Negotiation minutes / payment schedule
 - Terms of Reference
-- Inception report
+- Inception report ✓
 - Geospatial extent report
 - Socio-economic report
-- Ecosystem health report
-- Carbon inventory report
-- Drone survey outputs
-- EOSDA screenshots / notes
-- MRV documentation / data dictionary / screenshots
+- Ecosystem health report ✓
+- Carbon inventory report — *from Carbon Team*
+
+**For the standalone Drone Survey + EOSDA Report (from Team Leader):**
+- Drone orthomosaics and flight mission logs
+- EOSDA area-of-interest setup and hosting screenshots
+- Condition-mapping panels and coverage maps
+
+**For the standalone MRV System Report (from Team Leader):**
+- MRV system architecture documentation
+- Dashboard and visual exports from `GAB-Climate-Smart/blue-carbon-mrv`
+- Data dictionary and data flow diagrams
 
 ## Suggested branch strategy
 - `main` = approved material only
