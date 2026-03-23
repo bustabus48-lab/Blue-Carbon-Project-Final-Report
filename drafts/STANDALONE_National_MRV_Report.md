@@ -199,7 +199,7 @@ The evidence supports a pilot-first interpretation in which Keta is treated as a
 - the monitoring and plot logic that is most visible for Keta-linked contexts; and
 - the broader scope notes that explicitly preserve national architecture while allowing site-specific implementation depth to mature unevenly.
 
-This pilot framing should be used carefully. It is appropriate to say that Keta provides an early operational test context or implementation context. It is not appropriate to imply that Keta-level readiness automatically proves equal readiness across all blue carbon landscapes in Ghana.
+This pilot framing should be used carefully. It is appropriate to say that Keta provides an early implementation context within the wider national architecture. It is not appropriate to imply that Keta-level readiness automatically proves equal readiness across all blue carbon landscapes in Ghana.
 
 ## 12. Governance, Safeguards, and Reporting Assurance
 An important strength of the MRV framework design is that it does not treat carbon accounting as separate from governance and safeguards. The documented framework includes:
@@ -229,7 +229,7 @@ The final standalone report should make verification and replication more explic
 This section matters because the ultimate value of the MRV system depends not only on what it measures, but on whether another team can repeat the method, inspect the chain of evidence, and arrive at the same conclusion or documented exception.
 
 ## 14. Comparative Lessons from Three Implemented Blue Carbon MRV Systems
-To improve the standalone draft toward finalization, it is useful to compare Ghana’s emerging MRV framework with three wider implementation models reviewed during this drafting pass:
+To improve the standalone draft toward finalization, it is useful to compare Ghana’s emerging MRV framework with three wider implementation models reviewed through a March 2026 public-web pass covering Verra blue carbon materials, the Inter-American Development Bank regional blue carbon MRV mechanism, and publicly available digital mangrove MRV platform materials:
 
 ### 14.1 Verra blue carbon methodologies and registry model
 Publicly available material on Verra’s blue carbon area of focus indicates a system built around standardized methodologies, stratified field sampling, remote-sensing support, third-party validation and verification, and registry-based traceability of issued units. The most relevant lesson for this standalone report is not to force Ghana into a specific market pathway, but to make the method chain explicit: method reference, sampling logic, QA/QC, verification trigger, and report output should each be visible.
