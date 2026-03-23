@@ -14,14 +14,20 @@ The final report will synthesize:
 
 It can also support a **companion Drone Survey / EOSDA monitoring report** when the project needs a standalone, implementation-focused output alongside the main Final Report.
 
+Before the Final Report can be fully authored, the repository should contain three standalone markdown source reports that can be used for evidence extraction:
+- a **National MRV Report** in `.md`
+- a **Drone Survey / EOSDA Report** in `.md`
+- a **Carbon Inventory Report** in `.md`
+
 ## Recommended workflow
 1. Place all source reports in `source_reports/`
 2. Use the prompts in `prompts/` to extract structured notes from each source
 3. Build the synthesis matrix in `templates/synthesis_matrix.csv`
 4. Draft report chapters in `drafts/`
-5. Run an authoring pass to convert technical draft material into readable report prose for policy makers, academics, and development partners
-6. Run the QA checklist in `qa/QA_CHECKLIST.md`
-7. Consolidate into the final manuscript and any companion Drone Survey report
+5. Ensure the National MRV, Drone Survey / EOSDA, and Carbon Inventory standalone reports exist in markdown and are ready for extraction
+6. Run an authoring pass to convert technical draft material into readable report prose for policy makers, academics, and development partners
+7. Run the QA checklist in `qa/QA_CHECKLIST.md`
+8. Consolidate into the final manuscript and any required standalone reports
 
 ## Folder structure
 - `source_reports/` original reports and source material
@@ -45,6 +51,12 @@ It can also support a **companion Drone Survey / EOSDA monitoring report** when 
 - Drone survey outputs
 - EOSDA screenshots / notes
 - MRV documentation / data dictionary / screenshots
+
+## Standalone report expectations before final authoring
+- `source_reports/blue_carbon_mrv_report.md` should contain the completed National MRV Report.
+- `source_reports/[drone-survey-eosda-report].md` should contain the completed Drone Survey / EOSDA Report, including setup status and uploaded-area evidence where available.
+- `source_reports/[carbon-inventory-report].md` should contain the completed Carbon Inventory Report from the carbon team.
+- If any of these are still pending, the Final Report should retain placeholders and should not present their outputs as complete evidence.
 
 ## Suggested branch strategy
 - `main` = approved material only

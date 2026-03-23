@@ -25,9 +25,16 @@ Treat the report as a repo-managed document production project, not as one long 
 3. Add this workflow pack and `AGENTS.md`
 4. Confirm file naming conventions
 5. Create a decision log in `notes/decision_log.md`
+6. Confirm the three standalone source reports required for final authoring are present in markdown:
+   - National MRV Report
+   - Drone Survey / EOSDA Report
+   - Carbon Inventory Report
 
 ### Phase B: Structured extraction
 For each report, create a markdown extraction note using `templates/source_extraction_template.md`.
+
+Priority requirement before integrated drafting:
+- the National MRV Report, Drone Survey / EOSDA Report, and Carbon Inventory Report should each exist as standalone `.md` source reports so they can be extracted directly.
 
 Outputs:
 - one extraction file per report
@@ -62,7 +69,7 @@ After chapter drafting, run a dedicated authoring pass to convert technical mate
 
 Outputs:
 - final-report-ready chapter text for policy and management audiences
-- companion Drone Survey / EOSDA monitoring report when a standalone deliverable is required
+- standalone National MRV, Drone Survey / EOSDA, and Carbon Inventory reports in markdown where those deliverables are part of the reporting package
 - flagged list of missing implementation inputs, especially for EOSDA account setup, uploaded areas of interest, screenshots, and monitoring workflow evidence
 
 Rules:
@@ -97,6 +104,7 @@ For users who also need a separate Drone Survey report, the companion report sho
 Do not ask for the entire 100-page report in one task.
 Use bounded prompts:
 - one task per source extraction
+- one task per standalone source report authoring pass when a `.md` source report is still being finalized
 - one task for matrix population
 - one task per chapter
 - one QA pass per chapter
@@ -116,7 +124,7 @@ Pause for human approval after:
 - synthesis matrix
 - site profiles
 - chapter drafts
-- authoring-layer outputs for the Final Report and, where requested, a standalone Drone Survey / EOSDA monitoring report
+- authoring-layer outputs for the Final Report and the standalone MRV, Drone Survey / EOSDA, and Carbon Inventory reports where required
 - figure and table inventory
 - findings traceability table
 - final editorial checklist
@@ -124,6 +132,9 @@ Pause for human approval after:
 ## 9. Minimum inputs before final authoring pass
 Do not finalize the report package until the following are either available or explicitly marked as pending:
 - approved blueprint and source reports
+- completed National MRV Report in markdown
+- completed Drone Survey / EOSDA Report in markdown
+- completed Carbon Inventory Report in markdown
 - resolved or logged contradictions from extraction and synthesis stages
 - confirmed list of drone survey areas of interest and boundary files
 - EOSDA account setup status, uploaded AOIs/polygons, and any screenshots or access notes intended for reporting
