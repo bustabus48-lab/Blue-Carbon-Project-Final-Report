@@ -37,4 +37,12 @@ Updated dependent files:
    - Exact phrasing, some numeric strings, and table-level values should be checked against original PDFs before final publication.
 
 3. **Non-PDF gaps remain unresolved**
-   - Carbon inventory completion, drone visual outputs, EOSDA screenshots/exports, and final MRV operational evidence are still pending and continue to constrain full chapter finalization.
+    - Carbon inventory completion, drone visual outputs, EOSDA screenshots/exports, and final MRV operational evidence are still pending and continue to constrain full chapter finalization.
+
+## Standalone markdown source-report requirement
+Before the Final Report can be fully authored, the repository should contain completed markdown versions of:
+- the National MRV Report;
+- the Drone Survey / EOSDA Report; and
+- the Carbon Inventory Report.
+
+If any of these remain incomplete, downstream extraction and authoring should preserve placeholders and identify the missing standalone report explicitly.

@@ -14,6 +14,7 @@ Treat the report as a repo-managed document production project, not as one long 
 - **Extractor agent**: reads source reports into templates
 - **Synthesis agent**: builds matrices and cross-report findings
 - **Drafting agent**: drafts chapters against outline
+- **Authoring agent**: turns drafted material into audience-ready prose for policy makers, academics, and development partners while preserving evidence-backed findings and avoiding fact invention
 - **QA agent**: checks consistency, evidence traceability, and duplication
 
 ## 4. Execution sequence
@@ -24,9 +25,16 @@ Treat the report as a repo-managed document production project, not as one long 
 3. Add this workflow pack and `AGENTS.md`
 4. Confirm file naming conventions
 5. Create a decision log in `notes/decision_log.md`
+6. Confirm the three standalone source reports required for final authoring are present in markdown:
+   - National MRV Report
+   - Drone Survey / EOSDA Report
+   - Carbon Inventory Report
 
 ### Phase B: Structured extraction
 For each report, create a markdown extraction note using `templates/source_extraction_template.md`.
+
+Priority requirement before integrated drafting:
+- the National MRV Report, Drone Survey / EOSDA Report, and Carbon Inventory Report should each exist as standalone `.md` source reports so they can be extracted directly.
 
 Outputs:
 - one extraction file per report
@@ -56,7 +64,21 @@ Draft in this order:
 10. Conclusion
 11. Executive summary last
 
-### Phase E: QA
+### Phase E: Authoring layer
+After chapter drafting, run a dedicated authoring pass to convert technical material into decision-oriented report prose.
+
+Outputs:
+- final-report-ready chapter text for policy and management audiences
+- standalone National MRV, Drone Survey / EOSDA, and Carbon Inventory reports in markdown where those deliverables are part of the reporting package
+- flagged list of missing implementation inputs, especially for EOSDA account setup, uploaded areas of interest, screenshots, and monitoring workflow evidence
+
+Rules:
+- do not add new findings during the authoring pass
+- define acronyms on first use
+- keep methods short in the main report and move detail to annexes
+- distinguish clearly between completed evidence, pending inputs, and recommendations
+
+### Phase F: QA
 Run checks for:
 - conflicting figures
 - inconsistent site names
@@ -73,10 +95,16 @@ The final report should answer these questions:
 4. Which areas should be prioritized for protection, restoration, and monitoring?
 5. How will drone, EOSDA, and MRV systems sustain ongoing monitoring?
 
+For users who also need a separate Drone Survey report, the companion report should answer:
+1. Which areas of interest, plots, or monitoring polygons are already evidenced in the repository?
+2. Which drone-linked outputs are available now, and which report-ready assets are still missing?
+3. What must be completed before continuous monitoring in EOSDA Crop Monitoring can be reported as operational?
+
 ## 6. Prompting strategy for Codex
 Do not ask for the entire 100-page report in one task.
 Use bounded prompts:
 - one task per source extraction
+- one task to prepare or refine each required standalone `.md` source report before extraction begins
 - one task for matrix population
 - one task per chapter
 - one QA pass per chapter
@@ -96,11 +124,23 @@ Pause for human approval after:
 - synthesis matrix
 - site profiles
 - chapter drafts
+- authoring-layer outputs for the Final Report and the standalone MRV, Drone Survey / EOSDA, and Carbon Inventory reports where required
 - figure and table inventory
 - findings traceability table
 - final editorial checklist
 
-## 9. Definition of done
+## 9. Minimum inputs before final authoring pass
+Do not finalize the report package until the following are either available or explicitly marked as pending:
+- approved blueprint and source reports
+- completed National MRV Report in markdown
+- completed Drone Survey / EOSDA Report in markdown
+- completed Carbon Inventory Report in markdown
+- resolved or logged contradictions from extraction and synthesis stages
+- confirmed list of drone survey areas of interest and boundary files
+- EOSDA account setup status, uploaded AOIs/polygons, and any screenshots or access notes intended for reporting
+- any monitoring workflow evidence needed to support claims about continuous monitoring
+
+## 10. Definition of done
 The report is ready for final editorial packaging when:
 - all chapters are drafted
 - all major claims are traceable
