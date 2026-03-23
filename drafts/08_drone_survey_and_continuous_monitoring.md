@@ -5,7 +5,9 @@
 **Major known gaps:** Drone orthomosaics, mission logs, and finalized survey visuals are not yet packaged as report-ready assets.
 
 ## 8.1 Chapter Purpose
-This chapter explains how available drone-linked spatial assets and monitoring design elements support transition from one-time baseline production to repeatable observation workflows. It also provides the evidence base that can be reused if a standalone Drone Survey / EOSDA monitoring report is required.
+This chapter explains how available drone-linked spatial assets and monitoring design elements support the transition from one-time baseline production to repeatable observation workflows.
+
+The same evidence base can be reused if a standalone Drone Survey / EOSDA monitoring report is required.
 
 ## 8.2 Current Evidence on Drone-Linked Spatial Assets
 Current evidence supports the existence of dated boundary layers for restoration, protection, and sample-plot areas associated with pilot monitoring contexts. These layers provide a usable spatial scaffold for chapter maps and for the preparation of areas of interest to be uploaded into an EOS Data Analytics (EOSDA) Crop Monitoring workspace.
@@ -33,7 +35,9 @@ At this stage, the chapter should distinguish between:
 - **fully evidenced monitoring implementation outputs** (partially supported).
 
 ## 8.5 What Is Needed Before EOSDA Monitoring Can Be Reported as Operational
-If the consultancy team is opening an EOSDA Crop Monitoring account and uploading the drone-survey areas of interest, the final report package should include a short status table covering:
+If the consultancy team is opening an EOSDA Crop Monitoring account and uploading the drone-survey areas of interest, the final report package should include the following status table.
+
+The table reflects the current repository evidence snapshot. It should be updated when EOSDA setup records, upload confirmations, screenshots, or monitoring outputs are added to the reporting package.
 
 | Required implementation item | Current status in repository | Reporting implication |
 |---|---|---|

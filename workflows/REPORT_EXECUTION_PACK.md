@@ -14,7 +14,7 @@ Treat the report as a repo-managed document production project, not as one long 
 - **Extractor agent**: reads source reports into templates
 - **Synthesis agent**: builds matrices and cross-report findings
 - **Drafting agent**: drafts chapters against outline
-- **Authoring agent**: turns drafted material into audience-ready prose for policy makers, academics, and development partners
+- **Authoring agent**: turns drafted material into audience-ready prose for policy makers, academics, and development partners while preserving evidence-backed findings and avoiding fact invention
 - **QA agent**: checks consistency, evidence traceability, and duplication
 
 ## 4. Execution sequence
@@ -57,7 +57,7 @@ Draft in this order:
 10. Conclusion
 11. Executive summary last
 
-### Phase D2: Authoring layer
+### Phase E: Authoring layer
 After chapter drafting, run a dedicated authoring pass to convert technical material into decision-oriented report prose.
 
 Outputs:
@@ -71,7 +71,7 @@ Rules:
 - keep methods short in the main report and move detail to annexes
 - distinguish clearly between completed evidence, pending inputs, and recommendations
 
-### Phase E: QA
+### Phase F: QA
 Run checks for:
 - conflicting figures
 - inconsistent site names
@@ -121,7 +121,7 @@ Pause for human approval after:
 - findings traceability table
 - final editorial checklist
 
-## 8A. Minimum inputs before final authoring pass
+## 9. Minimum inputs before final authoring pass
 Do not finalize the report package until the following are either available or explicitly marked as pending:
 - approved blueprint and source reports
 - resolved or logged contradictions from extraction and synthesis stages
@@ -129,7 +129,7 @@ Do not finalize the report package until the following are either available or e
 - EOSDA account setup status, uploaded AOIs/polygons, and any screenshots or access notes intended for reporting
 - any monitoring workflow evidence needed to support claims about continuous monitoring
 
-## 9. Definition of done
+## 10. Definition of done
 The report is ready for final editorial packaging when:
 - all chapters are drafted
 - all major claims are traceable

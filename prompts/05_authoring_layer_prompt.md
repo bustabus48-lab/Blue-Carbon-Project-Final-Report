@@ -21,7 +21,7 @@ This prompt can be used for:
 
 ## Instructions
 - Preserve all evidence-backed findings and remove unsupported wording.
-- Rewrite technical guidance into plain, decision-oriented prose without deleting essential scientific meaning.
+- Rewrite technical guidance into plain, decision-oriented prose without adding new facts or deleting essential scientific meaning.
 - Define acronyms on first use.
 - Keep detailed methods short in the main text and move technical detail to annex notes or placeholders.
 - Mark missing information with bracketed placeholders and name the missing source or missing implementation input.
@@ -32,10 +32,10 @@ This prompt can be used for:
   - recommendations
 - When drafting the Drone Survey / EOSDA monitoring report, state whether the following are completed, pending, or unknown:
   - EOSDA account setup
-  - uploaded areas of interest / polygons
-  - drone orthomosaics or imagery packages
-  - screenshots or interface evidence for continuous monitoring
-  - reporting workflow for recurring updates
+  - Uploaded areas of interest / polygons
+  - Drone orthomosaics or imagery packages
+  - Screenshots or interface evidence for continuous monitoring
+  - Reporting workflow for recurring updates
 - Do not claim continuous monitoring is operational unless the evidence explicitly shows setup and use.
 
 ## Output requirements
