@@ -1,6 +1,6 @@
 # Standalone National MRV Report
 
-**Draft status:** strengthened working draft for authoring and evidence extraction  
+**Draft status:** strengthened standalone source report for authoring and evidence extraction  
 **Primary evidence files used:** `source_reports/blue_carbon_mrv_report.md`; `source_reports/monitoring_plan_for_keta_and_ada.md`; `evidence/mrv_system.md`; `evidence/mrv_repo_architecture.md`; `evidence/mrv_repo_dataflows.md`; `evidence/mrv_repo_pilot_logic.md`; `qa/scope_logic_note.md`; public review of `GAB-Climate-Smart/blue-carbon-mrv` and `GAB-Climate-Smart/gab-ramsar-map` repositories (March 2026)  
 **Major known gaps:** Final dashboard screenshots, hotspot/alert exports, role-view exports, finalized data dictionary, full carbon inventory narrative, and independent confirmation of full operational deployment are not yet available in the repository.
 
@@ -242,9 +242,9 @@ Publicly available examples of digital mangrove MRV platforms emphasize continuo
 
 ### 14.4 Practical report improvements suggested by the comparator review
 Based on the comparative review above, the standalone Ghana MRV report would be stronger if the final version adds or sharpens the following items:
-- an annex-ready register of protocols, SOPs, and manuals already evidenced across the MRV source report and companion repositories;
-- an indicator lineage table showing for each indicator: source data, collection frequency, responsible actor, validation step, storage point, and reporting output;
-- a verification-readiness table distinguishing internal QA/QC, district validation, national technical QA/QC, and independent verification triggers;
+- an annex-ready register of protocols, SOPs, and manuals already evidenced across the MRV source report and companion repositories, once approved titles and versions are available in the repository;
+- an indicator lineage table showing for each indicator: source data, collection frequency, responsible actor, validation step, storage point, and reporting output, once the data dictionary is available for annex use;
+- a verification-readiness table distinguishing internal QA/QC, district validation, national technical QA/QC, and independent verification triggers, once the protocol register is available for annex use;
 - a clear implementation-maturity table separating what is currently evidenced, what is pilot-linked, and what remains pending;
 - a clearer statement of how GIS, ecosystem health, carbon inventory, and future drone/EOSDA evidence enter one data pathway; and
 - a concise note on how future MRV outputs could support NDC and national climate-reporting processes without overstating current readiness.
@@ -266,8 +266,8 @@ Insert the following if and when they are available:
 - MRV dashboard screenshot(s) showing national overview;
 - hotspot or alert export(s);
 - representative workflow or role-view export(s);
-- final data dictionary and indicator metadata tables;
-- final protocol register or SOP list with approved titles and versions;
+- final data dictionary and indicator metadata tables added to the repository;
+- final protocol register or SOP list with approved titles and versions added to the repository;
 - carbon inventory annex references and final soil/lab evidence tables; and
 - any approved statement on formal adoption or deployment status.
 
@@ -291,7 +291,7 @@ Until these are available, visual and operational language should remain cautiou
 
 ### Next actions
 1. Use this draft as the strengthened standalone markdown source report for extraction and final-report synthesis.
-2. Add an annex-ready indicator lineage and verification-readiness table when the data dictionary and protocol register are available.
+2. Add an annex-ready indicator lineage and verification-readiness table when the data dictionary and protocol register are available in the repository.
 3. Keep Keta references framed as pilot implementation context within national architecture.
 4. Update the operational-status section only when direct proof is added to the repository.
 5. Align the later standalone Drone Survey / EOSDA report and Carbon Inventory report to the same replication-and-verification logic so that the three standalone reports fit together cleanly.

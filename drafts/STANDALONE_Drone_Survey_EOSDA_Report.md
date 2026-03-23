@@ -1,6 +1,6 @@
 # Standalone Drone Survey / EOSDA Report
 
-**Draft status:** working draft for authoring and evidence extraction  
+**Draft status:** aligned standalone source draft for authoring and evidence extraction  
 **Primary evidence files used:** `drafts/08_drone_survey_and_continuous_monitoring.md`; `evidence/drone_monitoring.md`; `source_reports/monitoring_plan_for_keta_and_ada.md`; `source_reports/blue_carbon_final_report_blueprint.md`; `source_reports/terms_of_reference_revised_mlnr.md`; named boundary files in `source_reports/`  
 **Major known gaps:** Orthomosaics, mission logs, sensor metadata, EOSDA screenshots, upload confirmations, and platform-export visuals are not yet packaged as report-ready evidence in the repository.
 
@@ -94,7 +94,22 @@ The final-report blueprint expects EOSDA hosting and recurring observation to be
 
 This table should be updated if upload confirmations, screenshots, or platform exports are added later. Until then, EOSDA should be described as a prepared next step rather than a fully evidenced completed system.
 
-## 8. How the Drone / EOSDA Workstream Supports the Final Report
+## 8. Replication, Verification, and Status-Control Logic
+To align this report with the standalone National MRV and Carbon Inventory reports, the Drone Survey / EOSDA workstream should be read through the same replication-and-verification logic.
+
+1. **Named polygons, plots, and boundaries provide the first traceable layer of evidence.**  
+   The current repository already contains named monitoring units and boundary files that can anchor later hosting, field coordination, and visual verification.
+
+2. **Operational claims require proof beyond polygon existence.**  
+   Mission records, orthomosaics, sensor metadata, upload confirmations, screenshots, and platform exports are the materials that convert a prepared monitoring unit into a verifiable operational workflow.
+
+3. **Platform status should be updated only when direct proof is added to the repository.**  
+   Until account setup, uploaded areas of interest, and visual evidence are archived here, the report should describe EOSDA as a prepared next step rather than a fully evidenced completed system.
+
+4. **Keta-linked evidence should remain nested within a wider national monitoring architecture.**  
+   Keta and nearby named polygons provide strong pilot or site-level implementation context, but they should not be used to imply equal operational readiness across all blue carbon landscapes in Ghana.
+
+## 9. How the Drone / EOSDA Workstream Supports the Final Report
 Within the Final Report, this workstream helps bridge the gap between one-time baseline production and recurring monitoring. It contributes by:
 - improving spatial specificity through named monitoring units and polygons;
 - helping define which areas can be hosted and tracked through recurring observation tools;
@@ -103,7 +118,7 @@ Within the Final Report, this workstream helps bridge the gap between one-time b
 
 These contributions are real and useful even before every visual output or hosting step is complete. The report should therefore emphasize practical readiness and sequenced operationalization.
 
-## 9. Management-Facing Reading of Current Readiness
+## 10. Management-Facing Reading of Current Readiness
 For managers and development partners, the safest interpretation of the current evidence is:
 - the project has already defined important spatial monitoring units;
 - the monitoring plan provides a workable quarterly field structure for priority sites;
@@ -112,7 +127,7 @@ For managers and development partners, the safest interpretation of the current 
 
 This reading preserves credibility while still making it clear that the workstream has advanced beyond abstract planning.
 
-## 10. Evidence Boundaries and Drafting Constraints
+## 11. Evidence Boundaries and Drafting Constraints
 This draft should preserve the following constraints:
 - do not claim drone-derived area statistics or accuracy values unless explicitly documented in source materials;
 - do not claim full national drone coverage, because the current explicit evidence is site-specific;
@@ -120,7 +135,7 @@ This draft should preserve the following constraints:
 - do not treat filename date stamps as confirmed completion dates without supporting metadata; and
 - do not claim EOSDA hosting is operational until account setup, polygon upload, and platform views are evidenced.
 
-## 11. Placeholder Requirements Before Final Publication
+## 12. Placeholder Requirements Before Final Publication
 **[PLACEHOLDER NOTE – REQUIRED BEFORE FINAL PUBLICATION]**
 
 Insert the following if and when they become available:
@@ -132,7 +147,7 @@ Insert the following if and when they become available:
 
 Until these are available, the report should remain a readiness and setup report rather than a proof-of-operation report.
 
-## 12. Decisions, Pending Inputs, and Next Actions
+## 13. Decisions, Pending Inputs, and Next Actions
 ### Completed evidence
 - Named boundary files are present for restoration, protection, PSP, and lagoon contexts.
 - The monitoring plan provides a supervised-map-based sampling design for Keta and Ada.
@@ -146,7 +161,8 @@ Until these are available, the report should remain a readiness and setup report
 - a clear implementation-status note for each area of interest.
 
 ### Next actions
-1. Use this draft as the standalone markdown source report for extraction and final-report synthesis.
-2. Add annex-ready area-of-interest and polygon tables if more metadata becomes available.
-3. Insert EOSDA screenshots and upload records before claiming active continuous monitoring.
-4. Add orthomosaic and visual outputs once they are approved for publication.
+1. Use this draft as the aligned standalone markdown source report for extraction and final-report synthesis.
+2. Add annex-ready area-of-interest, indicator-lineage, and verification-readiness tables only when the supporting metadata, data dictionary, and protocol register are available in the repository.
+3. Keep Keta-linked references framed as pilot implementation context within national architecture.
+4. Update the operational-status section only when direct proof is added to the repository.
+5. Add orthomosaic, upload, and platform-view evidence once they are approved for publication.
