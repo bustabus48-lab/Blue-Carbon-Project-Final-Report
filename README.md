@@ -12,23 +12,24 @@ The final report will synthesize:
 - EOSDA hosting and monitoring setup
 - MRV system documentation
 
+It can also support a **companion Drone Survey / EOSDA monitoring report** when the project needs a standalone, implementation-focused output alongside the main Final Report.
+
 ## Recommended workflow
 1. Place all source reports in `source_reports/`
 2. Use the prompts in `prompts/` to extract structured notes from each source
 3. Build the synthesis matrix in `templates/synthesis_matrix.csv`
-4. Draft report chapters in `outputs/drafts/`
-5. Run the QA checklist in `qa/QA_CHECKLIST.md`
-6. Consolidate into the final manuscript
+4. Draft report chapters in `drafts/`
+5. Run an authoring pass to convert technical draft material into readable report prose for policy makers, academics, and development partners
+6. Run the QA checklist in `qa/QA_CHECKLIST.md`
+7. Consolidate into the final manuscript and any companion Drone Survey report
 
 ## Folder structure
 - `source_reports/` original reports and source material
 - `templates/` structured extraction and synthesis templates
 - `prompts/` reusable agent prompts for Codex
 - `workflows/` end-to-end instructions and execution sequence
-- `outputs/drafts/` chapter drafts
-- `outputs/figures/` figures, maps, diagrams, screenshots
-- `outputs/tables/` final tables
-- `outputs/annexes/` annex drafts and supporting material
+- `drafts/` chapter drafts
+- `annex/` figure, table, and annex support files
 - `qa/` consistency and editorial checks
 - `notes/` working notes, issue logs, decision logs
 

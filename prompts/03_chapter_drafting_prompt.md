@@ -12,6 +12,10 @@ Instructions:
 - Use placeholders for pending values rather than guessing.
 - End the chapter with 3-6 key takeaways where appropriate.
 - Note where annex references should be inserted.
+- Keep the primary audience in view: policy makers, academics, and development partners should all be able to follow the chapter.
+- Define acronyms on first use and reduce unnecessary technical noise in the main text.
+- Separate clearly: (a) completed evidence, (b) pending inputs, and (c) recommendations or next steps.
+- If the chapter covers drone survey, EOSDA, or monitoring readiness, state what is required before continuous monitoring can be described as operational.
 
 Output:
-`outputs/drafts/[chapter-number]_[chapter-title].md`
+`drafts/[chapter-number]_[chapter-title].md`

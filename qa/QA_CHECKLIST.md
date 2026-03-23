@@ -16,6 +16,12 @@
 - Are they specific enough to act on?
 - Are they aligned with protection, restoration, monitoring, and governance needs?
 
+## Audience readiness
+- Can a policy maker understand the management message without reading the source reports?
+- Are acronyms defined on first use and technical terms kept to the level needed for the main text?
+- Does the text distinguish completed evidence from pending inputs and assumptions?
+- If EOSDA or continuous monitoring is discussed, is the setup status stated accurately?
+
 ## Editing
 - Is duplication minimized?
 - Are placeholders clearly marked?

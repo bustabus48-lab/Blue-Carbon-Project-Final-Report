@@ -51,8 +51,15 @@
 ## 10. What should be carried into the final report main text
 - 
 
-## 11. What should go to annexes only
+## 11. Policy / authoring translation notes
+- Key message for policy makers:
+- Key message for academics:
+- Key message for development partners:
+- Technical detail that should stay out of the main text:
+- Missing inputs that must be visible to the final author:
+
+## 12. What should go to annexes only
 - 
 
-## 12. Contradictions, gaps, or issues to resolve
+## 13. Contradictions, gaps, or issues to resolve
 - 
